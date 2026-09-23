@@ -15,7 +15,7 @@ st.set_page_config(
 # ================= LOAD DATASET =================
 
 @st.cache_data
-def load_data():
+def load_data_set():
     data = pd.read_excel("loan_data_set.xlsx")
     return data
 

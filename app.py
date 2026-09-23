@@ -20,7 +20,7 @@ def load_data():
     return data
 
 
-loan = load_data()
+loan = load_data_set()
 
 
 # ================= TITLE =================

@@ -15,12 +15,12 @@ st.set_page_config(
 # ================= LOAD DATASET =================
 
 @st.cache_data
-def load_data_set():
+def load_data():
     data = pd.read_excel("loan_data_set.xlsx")
     return data
 
 
-loan = load_data_set()
+loan = load_data()
 
 
 # ================= TITLE =================
